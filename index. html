@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risol Homemade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #ff7b54;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 20px;
+        }
+        .cta {
+            background-color: #fff;
+            color: #ff7b54;
+            padding: 10px 20px;
+            border: 2px solid #ff7b54;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cta:hover {
+            background-color: #ff7b54;
+            color: white;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 200px;
+            text-align: left;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .promo, .testimonials {
+            background-color: #ffefe6;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            color: #ff7b54;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Risol Homemade</h1>
+    <p>Renyah di Luar, Melimpah di Dalam</p>
+    <a href="#menu" class="cta">Pesan Sekarang</a>
+</header>
+
+<section class="section" id="about">
+    <h2>Tentang Risol Kami</h2>
+    <p>Dibuat dengan bahan segar, tanpa pengawet, dan hadir dengan rasa yang lezat. Pilihan terbaik untuk camilan sehat dan nikmat!</p>
+</section>
+
+<section class="section" id="menu">
+    <h2>Menu Pilihan</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Risol Ayam Mayo">
+            <h3>Risol Ayam Mayo</h3>
+            <p>Harga: Rp5.000/buah</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Risol Cokelat">
+            <h3>Risol Cokelat</h3>
+            <p>Harga: Rp5.000/buah</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Risol Mozarella">
+            <h3>Risol Mozarella</h3>
+            <p>Harga: Rp10.000/buah</p>
+        </div>
+    </div>
+</section>
+
+<section class="promo">
+    <h2>Promo Spesial</h2>
+    <p>Beli 10 Gratis 1! Gratis Ongkir untuk pembelian di atas Rp50.000.</p>
+</section>
+
+<section class="testimonials">
+    <h2>Apa Kata Pelanggan?</h2>
+    <p>"Risolnya enak banget, isinya banyak dan kulitnya renyah!" - Ibu Rani</p>
+</section>
+
+<footer>
+    <p>© 2025 Risol Homemade | <a href="mailto:info@risolhomemade.com">Email Kami</a></p>
+</footer>
+
+</body>
+</html>
+
+
+---
+
+
